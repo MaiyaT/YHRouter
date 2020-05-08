@@ -1,0 +1,16 @@
+PODS:
+  - YHRouter (0.1.0)
+
+DEPENDENCIES:
+  - YHRouter (from `../`)
+
+EXTERNAL SOURCES:
+  YHRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YHRouter: 418553a3e09432589a087a5caca7d38a17445528
+
+PODFILE CHECKSUM: 5a8c2b5ef769946603ce2cf61d4b5c3298aed9e6
+
+COCOAPODS: 1.9.1

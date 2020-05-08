@@ -1,0 +1,22 @@
+{
+  "name": "YHRouter",
+  "version": "0.1.0",
+  "summary": "A short description of YHRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/763465697@qq.com/YHRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "763465697@qq.com": "763465697@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/763465697@qq.com/YHRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YHRouter/Classes/**/*"
+}

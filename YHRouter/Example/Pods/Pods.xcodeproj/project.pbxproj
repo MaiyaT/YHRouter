@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A3886140F5BAADC6FFC446DFE95D85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		448BDD52771ECB9BABD448DE8C67ECFB /* Pods-YHRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4FB0816321315D359B649E52089300 /* Pods-YHRouter_Example-dummy.m */; };
+		47E236151395B834C0D734D44CDACE26 /* Pods-YHRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D2B8C5FA7A972EB7FB97FEDAB95C94 /* Pods-YHRouter_Tests-dummy.m */; };
+		4DCAC3F79C114C57E4BC038D6ABE1EC6 /* YHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA67E38F946CF3E8DFDACADADA61ABB8 /* YHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63F5986A143BA6A40A8AD89CD6064755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9BEC1E73AA41371F6D96413468E366A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9CBAF4CDEC0D749A166F9E31EBB8DEE5 /* YHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9896B25691E5DD8E9FE5E9B9BADEF8A7 /* YHRouter.m */; };
+		9FCC66F01BEE7D58B211AB0DCE09511D /* Pods-YHRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C375E1DBBEC0938B3A0B045F6093A64D /* Pods-YHRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF26D8C68E4F4098BECDB3C927AE32B6 /* YHRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCDB90EC4DE6A061E2A3500BBB3E1C7 /* YHRouter-dummy.m */; };
+		C855442B54219BE4A1DC91F0067317E3 /* Pods-YHRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 044766B30E40C6EB4ADD0069AC4BDD82 /* Pods-YHRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E21FA0021B58A949D766DE94DAD1CA02 /* YHRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1232E77B48D1E373EE0F80339D0573 /* YHRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D65915F1198B091963E2F488BB4E239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364DA4A1FBF6F510FBBC6CAF1D469957;
+			remoteInfo = YHRouter;
+		};
+		E7AFBCE90F0FA215CE9E2E76458D8632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8956739A49CE8C646943B69698ED8CB;
+			remoteInfo = "Pods-YHRouter_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044766B30E40C6EB4ADD0069AC4BDD82 /* Pods-YHRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHRouter_Example-umbrella.h"; sourceTree = "<group>"; };
+		09B11A4394AFA14730F20F2DE6F85FEC /* Pods-YHRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BCDB90EC4DE6A061E2A3500BBB3E1C7 /* YHRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHRouter-dummy.m"; sourceTree = "<group>"; };
+		0FC41E3362AF29B1675452AF8F72BD86 /* YHRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YHRouter.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A1498CADC971E13FF78581921837142 /* YHRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YHRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F7C2F56A9DB67F2F13AF236FAAE848 /* Pods-YHRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4568A8AE45B9D60862FC39FBC0B7BB6B /* Pods-YHRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHRouter_Example.modulemap"; sourceTree = "<group>"; };
+		464B240253995CFF987475BDBF01E6B0 /* Pods-YHRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4F1232E77B48D1E373EE0F80339D0573 /* YHRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHRouter-umbrella.h"; sourceTree = "<group>"; };
+		56CE0DDEA767A0EE9F07876F1EA1B836 /* Pods_YHRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C186CEBAA20FB8FD0D9AE5A01FDB466 /* Pods-YHRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7768957384AC59CC6A9F6F087761ABBD /* YHRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHRouter.release.xcconfig; sourceTree = "<group>"; };
+		7B4FB0816321315D359B649E52089300 /* Pods-YHRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		7CAA704E4D3732C2C80BE6417CC9FD3D /* Pods-YHRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		88B7212F534275554140AB10E9D59840 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8D4E59BFBE68FD829BA6D9900B042628 /* Pods-YHRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		931178B20E32984EBB0C08BCB6FD0DB1 /* YHRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YHRouter-Info.plist"; sourceTree = "<group>"; };
+		931A229BB0FEC84345DA0923EE916660 /* YHRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YHRouter.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9509B2F0044AD44EEC69A19FFE581B2A /* YHRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHRouter.debug.xcconfig; sourceTree = "<group>"; };
+		9896B25691E5DD8E9FE5E9B9BADEF8A7 /* YHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHRouter.m; path = YHRouter/Classes/YHRouter.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3DD439EA89C84ABB3802B4471013049 /* Pods-YHRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2CF17196062F78E6C0A3BA479CB8115 /* Pods-YHRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C375E1DBBEC0938B3A0B045F6093A64D /* Pods-YHRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YHRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D3D32D795B9DDBC01991F3E99F7A0CEC /* Pods-YHRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHRouter_Example-Info.plist"; sourceTree = "<group>"; };
+		D43C87E4B079B0BE3093386DEB385A98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA67E38F946CF3E8DFDACADADA61ABB8 /* YHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHRouter.h; path = YHRouter/Classes/YHRouter.h; sourceTree = "<group>"; };
+		E2D2B8C5FA7A972EB7FB97FEDAB95C94 /* Pods-YHRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		E2ECE6398C81A2CF4118B3B127C5C5D0 /* YHRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHRouter-prefix.pch"; sourceTree = "<group>"; };
+		E9F83993A08172BB7254BE965FC4E816 /* Pods-YHRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHRouter_Tests-Info.plist"; sourceTree = "<group>"; };
+		EB22D07A244EAF2BD638DED77230C5FD /* Pods_YHRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D2D86E2D6FA038E4B2C7E653F1141E /* Pods-YHRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YHRouter_Tests.modulemap"; sourceTree = "<group>"; };
+		FE64A2D2CD8EEFEB9DE02C27608DE69C /* Pods-YHRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70035AB99766A818A570212513A1219C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEC1E73AA41371F6D96413468E366A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91416084FD499C57FAF161D9D5FCE007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A3886140F5BAADC6FFC446DFE95D85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9C1B859B372B8401126D2A70CFCB6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F5986A143BA6A40A8AD89CD6064755 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D178F25754AACCDA290826F8D834A2A /* Pods-YHRouter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4568A8AE45B9D60862FC39FBC0B7BB6B /* Pods-YHRouter_Example.modulemap */,
+				44F7C2F56A9DB67F2F13AF236FAAE848 /* Pods-YHRouter_Example-acknowledgements.markdown */,
+				FE64A2D2CD8EEFEB9DE02C27608DE69C /* Pods-YHRouter_Example-acknowledgements.plist */,
+				7B4FB0816321315D359B649E52089300 /* Pods-YHRouter_Example-dummy.m */,
+				8D4E59BFBE68FD829BA6D9900B042628 /* Pods-YHRouter_Example-frameworks.sh */,
+				D3D32D795B9DDBC01991F3E99F7A0CEC /* Pods-YHRouter_Example-Info.plist */,
+				044766B30E40C6EB4ADD0069AC4BDD82 /* Pods-YHRouter_Example-umbrella.h */,
+				B2CF17196062F78E6C0A3BA479CB8115 /* Pods-YHRouter_Example.debug.xcconfig */,
+				464B240253995CFF987475BDBF01E6B0 /* Pods-YHRouter_Example.release.xcconfig */,
+			);
+			name = "Pods-YHRouter_Example";
+			path = "Target Support Files/Pods-YHRouter_Example";
+			sourceTree = "<group>";
+		};
+		17189AE610622503C1D86BFD45BBFA75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FC41E3362AF29B1675452AF8F72BD86 /* YHRouter.modulemap */,
+				0BCDB90EC4DE6A061E2A3500BBB3E1C7 /* YHRouter-dummy.m */,
+				931178B20E32984EBB0C08BCB6FD0DB1 /* YHRouter-Info.plist */,
+				E2ECE6398C81A2CF4118B3B127C5C5D0 /* YHRouter-prefix.pch */,
+				4F1232E77B48D1E373EE0F80339D0573 /* YHRouter-umbrella.h */,
+				9509B2F0044AD44EEC69A19FFE581B2A /* YHRouter.debug.xcconfig */,
+				7768957384AC59CC6A9F6F087761ABBD /* YHRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YHRouter";
+			sourceTree = "<group>";
+		};
+		37BC47E0E49199D114D8F08574417140 /* YHRouter */ = {
+			isa = PBXGroup;
+			children = (
+				DA67E38F946CF3E8DFDACADADA61ABB8 /* YHRouter.h */,
+				9896B25691E5DD8E9FE5E9B9BADEF8A7 /* YHRouter.m */,
+				6C5D2C357272A285D6CF26B9B3FAEEA6 /* Pod */,
+				17189AE610622503C1D86BFD45BBFA75 /* Support Files */,
+			);
+			name = YHRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4E1B049233B1C0EC42BD3B97C284C19A /* Pods-YHRouter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F6D2D86E2D6FA038E4B2C7E653F1141E /* Pods-YHRouter_Tests.modulemap */,
+				09B11A4394AFA14730F20F2DE6F85FEC /* Pods-YHRouter_Tests-acknowledgements.markdown */,
+				6C186CEBAA20FB8FD0D9AE5A01FDB466 /* Pods-YHRouter_Tests-acknowledgements.plist */,
+				E2D2B8C5FA7A972EB7FB97FEDAB95C94 /* Pods-YHRouter_Tests-dummy.m */,
+				E9F83993A08172BB7254BE965FC4E816 /* Pods-YHRouter_Tests-Info.plist */,
+				C375E1DBBEC0938B3A0B045F6093A64D /* Pods-YHRouter_Tests-umbrella.h */,
+				A3DD439EA89C84ABB3802B4471013049 /* Pods-YHRouter_Tests.debug.xcconfig */,
+				7CAA704E4D3732C2C80BE6417CC9FD3D /* Pods-YHRouter_Tests.release.xcconfig */,
+			);
+			name = "Pods-YHRouter_Tests";
+			path = "Target Support Files/Pods-YHRouter_Tests";
+			sourceTree = "<group>";
+		};
+		6C5D2C357272A285D6CF26B9B3FAEEA6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				88B7212F534275554140AB10E9D59840 /* LICENSE */,
+				D43C87E4B079B0BE3093386DEB385A98 /* README.md */,
+				931A229BB0FEC84345DA0923EE916660 /* YHRouter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D4F48746385C0293CB4B2AED4A1E07EF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F0B70D462BD84F8304676DE976AFCAE6 /* Products */,
+				EF446966834A4747A5D34AF9CFA01FF8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4F48746385C0293CB4B2AED4A1E07EF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37BC47E0E49199D114D8F08574417140 /* YHRouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EF446966834A4747A5D34AF9CFA01FF8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D178F25754AACCDA290826F8D834A2A /* Pods-YHRouter_Example */,
+				4E1B049233B1C0EC42BD3B97C284C19A /* Pods-YHRouter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F0B70D462BD84F8304676DE976AFCAE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56CE0DDEA767A0EE9F07876F1EA1B836 /* Pods_YHRouter_Example.framework */,
+				EB22D07A244EAF2BD638DED77230C5FD /* Pods_YHRouter_Tests.framework */,
+				3A1498CADC971E13FF78581921837142 /* YHRouter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0881FCF556017861B8C948DC342682F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21FA0021B58A949D766DE94DAD1CA02 /* YHRouter-umbrella.h in Headers */,
+				4DCAC3F79C114C57E4BC038D6ABE1EC6 /* YHRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A84E07A4609C5AF382F2AB4F8CF1259 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C855442B54219BE4A1DC91F0067317E3 /* Pods-YHRouter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9960829E2C7317A0E3622F6CA5098A7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCC66F01BEE7D58B211AB0DCE09511D /* Pods-YHRouter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		364DA4A1FBF6F510FBBC6CAF1D469957 /* YHRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB6D0F0C94C6BA375220424A11FFA7F /* Build configuration list for PBXNativeTarget "YHRouter" */;
+			buildPhases = (
+				0881FCF556017861B8C948DC342682F7 /* Headers */,
+				E055AFE8CDACAF376C5294D5BD4C0CE6 /* Sources */,
+				91416084FD499C57FAF161D9D5FCE007 /* Frameworks */,
+				B893B2927E1AD700CFBCBD8218A552A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHRouter;
+			productName = YHRouter;
+			productReference = 3A1498CADC971E13FF78581921837142 /* YHRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83E63FF524168B983C747279EB858778 /* Pods-YHRouter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CE134980A964603B684B92D3259C93 /* Build configuration list for PBXNativeTarget "Pods-YHRouter_Tests" */;
+			buildPhases = (
+				9960829E2C7317A0E3622F6CA5098A7F /* Headers */,
+				792B8CDF7C1211B092062E8F23DB2138 /* Sources */,
+				70035AB99766A818A570212513A1219C /* Frameworks */,
+				6BD9E5EA7A17D7439492816F53BF7DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDDF4EE65DC3376283B1F778F0607A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-YHRouter_Tests";
+			productName = "Pods-YHRouter_Tests";
+			productReference = EB22D07A244EAF2BD638DED77230C5FD /* Pods_YHRouter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8956739A49CE8C646943B69698ED8CB /* Pods-YHRouter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 535D7AF385E2E8E68D3EDC28D2911DBD /* Build configuration list for PBXNativeTarget "Pods-YHRouter_Example" */;
+			buildPhases = (
+				1A84E07A4609C5AF382F2AB4F8CF1259 /* Headers */,
+				C460877407CDAEC34557CA68C0335FEB /* Sources */,
+				9F9C1B859B372B8401126D2A70CFCB6F /* Frameworks */,
+				FDAACC39E3CDCCF267947124F8A392D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14584CA62792B8D9A55594ED23D4C681 /* PBXTargetDependency */,
+			);
+			name = "Pods-YHRouter_Example";
+			productName = "Pods-YHRouter_Example";
+			productReference = 56CE0DDEA767A0EE9F07876F1EA1B836 /* Pods_YHRouter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F0B70D462BD84F8304676DE976AFCAE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8956739A49CE8C646943B69698ED8CB /* Pods-YHRouter_Example */,
+				83E63FF524168B983C747279EB858778 /* Pods-YHRouter_Tests */,
+				364DA4A1FBF6F510FBBC6CAF1D469957 /* YHRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BD9E5EA7A17D7439492816F53BF7DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B893B2927E1AD700CFBCBD8218A552A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAACC39E3CDCCF267947124F8A392D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		792B8CDF7C1211B092062E8F23DB2138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E236151395B834C0D734D44CDACE26 /* Pods-YHRouter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C460877407CDAEC34557CA68C0335FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448BDD52771ECB9BABD448DE8C67ECFB /* Pods-YHRouter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E055AFE8CDACAF376C5294D5BD4C0CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26D8C68E4F4098BECDB3C927AE32B6 /* YHRouter-dummy.m in Sources */,
+				9CBAF4CDEC0D749A166F9E31EBB8DEE5 /* YHRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14584CA62792B8D9A55594ED23D4C681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YHRouter;
+			target = 364DA4A1FBF6F510FBBC6CAF1D469957 /* YHRouter */;
+			targetProxy = 6D65915F1198B091963E2F488BB4E239 /* PBXContainerItemProxy */;
+		};
+		FDDDF4EE65DC3376283B1F778F0607A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YHRouter_Example";
+			target = A8956739A49CE8C646943B69698ED8CB /* Pods-YHRouter_Example */;
+			targetProxy = E7AFBCE90F0FA215CE9E2E76458D8632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BEBCFD158902C4373A133BA7DA5A646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 464B240253995CFF987475BDBF01E6B0 /* Pods-YHRouter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YHRouter_Example/Pods-YHRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YHRouter_Example/Pods-YHRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		77B10A926B47AF100D020D72774565E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7768957384AC59CC6A9F6F087761ABBD /* YHRouter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YHRouter/YHRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YHRouter/YHRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YHRouter/YHRouter.modulemap";
+				PRODUCT_MODULE_NAME = YHRouter;
+				PRODUCT_NAME = YHRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D0671701805761EA576A7345C927F656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAA704E4D3732C2C80BE6417CC9FD3D /* Pods-YHRouter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YHRouter_Tests/Pods-YHRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YHRouter_Tests/Pods-YHRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8A23A94096EF478205827DFAE2ED354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9509B2F0044AD44EEC69A19FFE581B2A /* YHRouter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YHRouter/YHRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YHRouter/YHRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YHRouter/YHRouter.modulemap";
+				PRODUCT_MODULE_NAME = YHRouter;
+				PRODUCT_NAME = YHRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF72843F39C16B87BE502EB482E54EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3DD439EA89C84ABB3802B4471013049 /* Pods-YHRouter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YHRouter_Tests/Pods-YHRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YHRouter_Tests/Pods-YHRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE272F5ADF1A77D84BD7841EF6D8A965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2CF17196062F78E6C0A3BA479CB8115 /* Pods-YHRouter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YHRouter_Example/Pods-YHRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YHRouter_Example/Pods-YHRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47CE134980A964603B684B92D3259C93 /* Build configuration list for PBXNativeTarget "Pods-YHRouter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF72843F39C16B87BE502EB482E54EF3 /* Debug */,
+				D0671701805761EA576A7345C927F656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		535D7AF385E2E8E68D3EDC28D2911DBD /* Build configuration list for PBXNativeTarget "Pods-YHRouter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE272F5ADF1A77D84BD7841EF6D8A965 /* Debug */,
+				2BEBCFD158902C4373A133BA7DA5A646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB6D0F0C94C6BA375220424A11FFA7F /* Build configuration list for PBXNativeTarget "YHRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A23A94096EF478205827DFAE2ED354 /* Debug */,
+				77B10A926B47AF100D020D72774565E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
